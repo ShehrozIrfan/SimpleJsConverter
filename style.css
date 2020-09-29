@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed coral;
+}
+.main-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+.weight, .measurement, .temperature{
+    padding: 10px;
+}
+.bold {
+    font-weight: 600;
+}
+@media(max-width:568px) {
+    .bold {
+        font-weight: 500;
+    }
+}
